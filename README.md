@@ -1,8 +1,9 @@
 # Local-Social-Media
 # Problem statement
-### Digitalization of the modern world enables people to know world wide news, which thereby reduced communication among their friends and neighbors, which made the people not aware of what’s happening in their locality or neighborhood.
-### So using the concept of social media, we build a separate website similar to some famous social media which lets us know the trending and hot new is their particular locality, apartments, schools, colleges etc.
-### This enables us to log-in using a particular login credentials and see the news which is posted by the admin or representative of that particular area, school or locality.
+#### Digitalization of the modern world enables people to know world wide news, which thereby reduced communication among their friends and neighbors, which made the people not aware of what’s happening in their locality or neighborhood.
+#### So using the concept of social media, we build a separate website similar to some famous social media which lets us know the trending and hot new is their particular locality, apartments, schools, colleges etc.
+#### This enables us to log-in using a particular login credentials and see the news which is posted by the admin or representative of that particular area, school or locality.
+# Modular design
 ### **SCRUM-1**- *Front page authentication*
  Designing a web page with all the necessary styles and   design which enables the users to login to their particular profile.
 Validating the user credentials.
