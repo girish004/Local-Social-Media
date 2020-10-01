@@ -1,0 +1,54 @@
+<?php include('connection.php')?>
+<html>
+<head>
+	<link rel="stylesheet" href="profile.css">
+	<title>Profile</title>
+	<script>
+	function menuvis()
+	{
+		document.getElementById("settings").style.visibility="visible";
+	}
+	</script>
+</head>	
+<body bgcolor="#F4ECF7">
+	<div class="options">
+		<center>
+			<form action="firstpagefeed.html"><button class="logo"><img src="feeds.png" width="10%" height="60%" align="center" style="bottom:0;" ></button></form>
+			<button class="logo"><img src="profile.png" width="10%" height="60%" align="center" ></button>
+			<button class="slide-menu" onclick="menuvis();"><img src="purplemenu.jpg" width="50%" height="60%" align="center"></button>
+		</center>
+	</div>
+	<div class="profile">
+		<img src="profile.png" width="90%" height="60%"/>
+		<img src="profile.png" width="20%" height="25%">
+		<div class="profile-name">
+		<h4><b><u><i>S. Sabhari Girish</b></u></i></h4>
+		<h4><b><u><i>General User</b></u></i></h4>
+		</div>
+		<div class="about">
+		<form action="settings.html"><button style="position:absolutete;border:none; width:60%;">About</button><br><br></form>
+		<form action="friends.php"><button style="position:absolute;border:none;width:60%;cursor:not-allowed;" href="friends.html">Friends</button><br><br></form>
+		<button style="position:absolute;border:none;width:60%;visibility:">Add friend</Button>	
+		</div>
+		<div class="bio">
+		</div>
+		<br><br>
+		<div class="news" id="news">
+		<br>
+			<center><h3 style="color:purple;"><b><u><i>Your Wall</b></u></i></h3></center>
+			<table border="0">
+			<tr><td width="5%"><img src="profile.png" width="100%" height="10%"></td>
+			<td><h3><b><i><a href="">S. Sabhari Girish</a></b></i></h3></td></tr>
+			<tr><td colspan="2"><img id="profpic" src="profile.png" width="60%" height="100%"></td></tr>
+			<tr><td><button>like</button></td><td><button>comment</button></td></tr>
+			</table>
+		</div>
+	</div>
+	<div class="settings" id="settings">
+		<table>
+		<tr><td><form action="settings.html"><button class="settings-b" href="settings.html">Settings</button></form></td></tr>
+		<tr><td><form action="login.html"><button class="settings-b" href="login.html">Logout</button></form></td></tr>
+		</table>
+	<div>
+</body>
+<html>

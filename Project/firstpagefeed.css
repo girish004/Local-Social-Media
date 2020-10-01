@@ -1,0 +1,107 @@
+.logo{
+	positiion:fixed;
+	float:left;
+	width:40%;
+	top:0%;
+	height:100%;
+	border:none;
+	background-color:#E39FF6;
+}
+.slide-menu{
+	positiion:absolute;
+	float:right;
+	width:10%;
+	height:100%;	
+	border:none;
+	background-color:#E39FF6;	
+}
+.slide-menu:hover{
+	background-color:purple;
+}
+.logo:hover{
+	background-color:purple;
+}
+.options{
+	position: sticky;
+	height:10%;
+	top:0%;
+	z-index:10;
+	width:100%;
+	background-color:#E39FF6;
+}
+.recent-connection{
+	position: fixed;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top:10%;
+	width:20%;
+	background-color:#F4ECF7;
+	z-index:1;
+}
+.posts{
+	position: relative;
+	width: 70%;
+	top:0%;
+	left:23%;
+	float:left;
+}
+.post-t{
+	border-color:#E39FF6;
+	position: absolute;
+	top:5%;
+	left:10%;
+	float:left;
+}
+.store{
+	position: absolute;
+	top:100%;
+	left:85%;
+	background-color:#E39FF6;
+	border-radius:25px;
+	border:none;
+	color:white;
+	width:15%;
+	height:30%;
+}
+.store:hover{
+	background-color:purple;
+}
+.news{
+	position:relative;
+	width:60%;
+	top:18%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	left:23%;
+	
+}
+.settings{
+	position: fixed;
+	top:11%;
+	left:90%;
+	width:100%;
+	height: 10%;
+	visibility:hidden;
+	background-color: #E39FF6;
+	z-index:10;
+}
+.settings-b{
+	background-color: #E39FF6;
+	width: 200%;
+	border:none;
+}
+.settings-b:hover{
+	background-color:purple;
+}
+button{
+	background-color:#E39FF6;
+	border-radius:25px;
+	color:white;
+}
+button:hover{
+	background-color:purple;
+}
+.newsfeed{
+	/*position:relative;
+	top:-165px;
+	width:65%;
+	left:300px;*/
+}
