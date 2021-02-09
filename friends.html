@@ -1,0 +1,38 @@
+<?php include('connection.php') ?>
+<?php include('friendsserver.php') ?>
+<html>
+<head>
+	<link rel="stylesheet" href="friends.css">
+	<title>Friends</title>
+	<script>
+	function menuvis()
+	{
+		document.getElementById("settings").style.visibility="visible";
+	}
+	</script>
+</head>
+<body bgcolor="#F4ECF7">
+	<div class="options">
+		<center>
+			<form action="firstpagefeed.html"><button class="logo"><img src="feeds.png" width="10%" height="60%" align="center" ></button></form>
+			<form action="profile.html"><button class="logo" href="profile.html"><img src="profile.png" width="10%" height="60%" align="center" ></button></form>
+			<button class="slide-menu" onclick="menuvis();"><img src="purplemenu.jpg" width="50%" height="60%" align="center"></button>
+		</center>
+	</div>
+	<h2 style="color:purple;position:absolute;top:10%;left:45%;"><b><i><u>Your friends</b></u></i></h2>
+	<div class="friends">
+		<img src="profile.png" width="10%">
+		<div class="profile-name">
+		<h4><b><u><i>S. Sabhari Girish</b></u></i></h4>
+		<h4><b><u><i>General User</b></u></i></h4>
+		</div>
+		<button style="position:absolute;left:80%;top:50%;z-index:1;">Add friend</button>
+	</div>
+	<div class="settings" id="settings">
+		<table>
+		<tr><td><form action="settings.html"><button class="settings-b" href="settings.html">Settings</button></form></td></tr>
+		<tr><td><form action="login.html"><button class="settings-b" href="login.html">Logout</button></form></td></tr>
+		</table>
+	<div>
+</body>
+</html>
